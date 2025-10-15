@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false)
@@ -26,9 +27,8 @@ export default function Navigation() {
       <div className="section-container">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold">
-            <span className="gradient-text">Loepfe</span>
-            <span className="text-white ml-2">Consulting</span>
+          <Link href="/" className="text-2xl font-bold text-white hover:text-primary-400 transition-colors">
+            Loepfe Consulting
           </Link>
 
           {/* Navigation Links */}

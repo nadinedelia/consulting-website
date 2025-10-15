@@ -2,14 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Montserrat Font */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/montserrat-v31-latin-regular.woff2') format('woff2'),
+       url('/fonts/montserrat-v31-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/montserrat-v31-latin-500.woff2') format('woff2'),
+       url('/fonts/montserrat-v31-latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/montserrat-v31-latin-600.woff2') format('woff2'),
+       url('/fonts/montserrat-v31-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/montserrat-v31-latin-700.woff2') format('woff2'),
+       url('/fonts/montserrat-v31-latin-700.woff') format('woff');
+}
+
 @layer base {
   :root {
-    --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
-    --font-display: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-montserrat: 'Montserrat', system-ui, -apple-system, sans-serif;
+    --font-display: 'Montserrat', system-ui, -apple-system, sans-serif;
   }
 
   body {
     @apply bg-neutral-950 text-neutral-100 antialiased;
+    font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
   }
 
   html {

@@ -5,39 +5,24 @@ import { motion } from 'framer-motion'
 const services = [
   {
     title: 'Institutional Advisory',
-    description: 'Strategic guidance for financial institutions navigating blockchain adoption, regulatory compliance, and digital asset integration.',
-    features: ['Regulatory Strategy', 'Risk Assessment', 'Compliance Framework', 'Digital Asset Custody']
+    description: 'Strategic guidance for financial institutions navigating blockchain adoption and digital asset integration.',
+    features: ['Regulatory Strategy', 'Compliance', 'Digital Asset Custody']
   },
   {
     title: 'Real World Assets',
-    description: 'Expert tokenization strategies for physical assets, real estate, commodities, and traditional financial instruments.',
-    features: ['Asset Tokenization', 'Legal Structure', 'Market Infrastructure', 'Liquidity Solutions']
+    description: 'Expert tokenization strategies for physical assets, real estate and traditional financial instruments.',
+    features: ['Asset Tokenization', 'Market Infrastructure', 'Liquidity Solutions']
   },
   {
     title: 'Blockchain Integration',
     description: 'End-to-end blockchain implementation for enterprises, from architecture design to production deployment.',
-    features: ['Technical Architecture', 'Smart Contract Development', 'System Integration', 'Security Audits']
-  },
-  {
-    title: 'FMI Consulting',
-    description: 'Specialized advisory for Financial Market Infrastructures exploring distributed ledger technology and digital currencies.',
-    features: ['DLT Implementation', 'Payment Systems', 'Settlement Solutions', 'CBDC Advisory']
-  },
-  {
-    title: 'Digital Asset Strategy',
-    description: 'Comprehensive digital asset strategies covering custody, trading, and portfolio management solutions.',
-    features: ['Asset Management', 'Trading Infrastructure', 'Custody Solutions', 'Portfolio Strategy']
-  },
-  {
-    title: 'Web3 Transformation',
-    description: 'Guide enterprises through Web3 adoption, from strategy development to implementation and ecosystem participation.',
-    features: ['Web3 Strategy', 'DAO Structures', 'Tokenomics Design', 'Ecosystem Development']
+    features: ['Technical Architecture', 'Smart Contract Development', 'System Integration']
   }
 ]
 
 export default function Services() {
   return (
-    <section id="services" className="py-32 bg-neutral-950 relative overflow-hidden">
+    <section id="services" className="py-32 relative overflow-hidden">
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.02)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
 
       <div className="section-container relative z-10">
@@ -48,7 +33,7 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <h2 className="text-5xl md:text-6xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
             <span className="gradient-text">Our Services</span>
           </h2>
           <p className="text-xl text-neutral-400 max-w-3xl mx-auto">

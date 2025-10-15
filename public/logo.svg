@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Geometric Icon -->
+  <g transform="translate(130, 150)" filter="url(#glow)">
+    <!-- Outer circle -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#2ec973" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Hexagon -->
+    <polygon points="0,-50 43.3,-25 43.3,25 0,50 -43.3,25 -43.3,-25"
+             fill="none" stroke="#2ec973" stroke-width="2"/>
+
+    <!-- Center glow -->
+    <circle cx="0" cy="0" r="12" fill="#2ec973" opacity="0.4"/>
+    <circle cx="0" cy="0" r="6" fill="#2ec973" opacity="0.8"/>
+
+    <!-- Radiating lines -->
+    <line x1="0" y1="0" x2="0" y2="-50" stroke="#2ec973" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="43.3" y2="-25" stroke="#2ec973" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="43.3" y2="25" stroke="#2ec973" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="50" stroke="#2ec973" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="-43.3" y2="25" stroke="#2ec973" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="-43.3" y2="-25" stroke="#2ec973" stroke-width="1.5"/>
+
+    <!-- Orbital dots -->
+    <circle cx="0" cy="-70" r="5" fill="#2ec973" opacity="0.8"/>
+    <circle cx="60.6" cy="-35" r="6" fill="#2ec973" opacity="0.9"/>
+    <circle cx="60.6" cy="35" r="5" fill="#2ec973" opacity="0.8"/>
+    <circle cx="0" cy="70" r="6" fill="#2ec973" opacity="0.9"/>
+    <circle cx="-60.6" cy="35" r="5" fill="#2ec973" opacity="0.8"/>
+    <circle cx="-60.6" cy="-35" r="6" fill="#2ec973" opacity="0.9"/>
+
+    <!-- Small scattered dots -->
+    <circle cx="35" cy="5" r="2" fill="#2ec973" opacity="0.6"/>
+    <circle cx="15" cy="-15" r="2" fill="#2ec973" opacity="0.5"/>
+    <circle cx="-20" cy="10" r="2" fill="#2ec973" opacity="0.6"/>
+  </g>
+
+  <!-- Company Name -->
+  <text x="240" y="140" font-family="'Arial', 'Helvetica', sans-serif" font-size="48" font-weight="700" fill="#ffffff" letter-spacing="-1">
+    LOEPFE
+  </text>
+  <text x="240" y="175" font-family="'Arial', 'Helvetica', sans-serif" font-size="24" font-weight="300" fill="#2ec973" letter-spacing="3">
+    CONSULTING
+  </text>
+
+  <!-- Subtle line accent -->
+  <line x1="240" y1="185" x2="440" y2="185" stroke="#2ec973" stroke-width="1" opacity="0.5"/>
+</svg>

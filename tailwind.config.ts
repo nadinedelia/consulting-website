@@ -10,17 +10,17 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          200: '#bbf7d0',
-          300: '#86efac',
-          400: '#4ade80',
-          500: '#22c55e',
-          600: '#16a34a',
-          700: '#15803d',
-          800: '#166534',
-          900: '#14532d',
-          950: '#052e16',
+          50: '#f0fdf5',
+          100: '#dcfce9',
+          200: '#bbf7d5',
+          300: '#86efb5',
+          400: '#4ade8a',
+          500: '#2ec973',
+          600: '#20a85b',
+          700: '#1a8549',
+          800: '#18693d',
+          900: '#155634',
+          950: '#0a2f1c',
         },
         accent: {
           50: '#ecfdf5',
@@ -49,7 +49,7 @@ const config: Config = {
         }
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-montserrat)', 'system-ui', 'sans-serif'],
         display: ['var(--font-display)', 'system-ui', 'sans-serif'],
       },
       animation: {

@@ -14,9 +14,9 @@ export default function Hero() {
         <svg className="absolute inset-0 w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="rgba(34, 197, 94, 0)" />
-              <stop offset="50%" stopColor="rgba(34, 197, 94, 0.4)" />
-              <stop offset="100%" stopColor="rgba(34, 197, 94, 0)" />
+              <stop offset="0%" stopColor="rgba(46, 201, 115, 0)" />
+              <stop offset="50%" stopColor="rgba(46, 201, 115, 0.4)" />
+              <stop offset="100%" stopColor="rgba(46, 201, 115, 0)" />
             </linearGradient>
           </defs>
 
@@ -57,56 +57,56 @@ export default function Hero() {
           {/* Animated nodes */}
           <motion.circle
             cx="10%" cy="20%" r="4"
-            fill="#22c55e"
+            fill="#2ec973"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: [0, 1.2, 1], opacity: [0, 1, 0.8] }}
             transition={{ duration: 1, repeat: Infinity, repeatDelay: 2 }}
           />
           <motion.circle
             cx="40%" cy="35%" r="4"
-            fill="#22c55e"
+            fill="#2ec973"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: [0, 1.2, 1], opacity: [0, 1, 0.8] }}
             transition={{ duration: 1, delay: 0.3, repeat: Infinity, repeatDelay: 2 }}
           />
           <motion.circle
             cx="60%" cy="30%" r="4"
-            fill="#22c55e"
+            fill="#2ec973"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: [0, 1.2, 1], opacity: [0, 1, 0.8] }}
             transition={{ duration: 1, delay: 0.6, repeat: Infinity, repeatDelay: 2 }}
           />
           <motion.circle
             cx="85%" cy="45%" r="4"
-            fill="#22c55e"
+            fill="#2ec973"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: [0, 1.2, 1], opacity: [0, 1, 0.8] }}
             transition={{ duration: 1, delay: 0.9, repeat: Infinity, repeatDelay: 2 }}
           />
           <motion.circle
             cx="30%" cy="70%" r="4"
-            fill="#22c55e"
+            fill="#2ec973"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: [0, 1.2, 1], opacity: [0, 1, 0.8] }}
             transition={{ duration: 1, delay: 1.2, repeat: Infinity, repeatDelay: 2 }}
           />
           <motion.circle
             cx="55%" cy="60%" r="4"
-            fill="#22c55e"
+            fill="#2ec973"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: [0, 1.2, 1], opacity: [0, 1, 0.8] }}
             transition={{ duration: 1, delay: 1.5, repeat: Infinity, repeatDelay: 2 }}
           />
           <motion.circle
             cx="70%" cy="75%" r="4"
-            fill="#22c55e"
+            fill="#2ec973"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: [0, 1.2, 1], opacity: [0, 1, 0.8] }}
             transition={{ duration: 1, delay: 1.8, repeat: Infinity, repeatDelay: 2 }}
           />
           <motion.circle
             cx="90%" cy="65%" r="4"
-            fill="#22c55e"
+            fill="#2ec973"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: [0, 1.2, 1], opacity: [0, 1, 0.8] }}
             transition={{ duration: 1, delay: 2.1, repeat: Infinity, repeatDelay: 2 }}
@@ -129,44 +129,15 @@ export default function Hero() {
             <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold leading-tight">
               <span className="text-white">Transforming</span>
               <br />
-              <span className="gradient-text">Blockchain Vision</span>
+              <span className="gradient-text">Web3 Vision</span>
               <br />
               <span className="text-white">Into Reality</span>
             </h1>
 
             <p className="text-lg md:text-xl text-neutral-400 leading-relaxed max-w-xl">
-              Premier blockchain consulting for institutional clients, FMIs, and enterprises across UAE, UK, and US.
-              Specializing in digital assets, tokenization, and real-world asset integration.
+              Blockchain consulting for institutional clients, FMIs, and enterprises.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-start gap-4">
-              <a href="#contact" className="btn-primary">
-                Schedule Consultation
-              </a>
-              <a href="#services" className="btn-secondary">
-                Our Services
-              </a>
-            </div>
-
-            {/* Trust indicators */}
-            <div className="grid grid-cols-2 gap-6 pt-8">
-              <div className="glass-effect p-5 rounded-xl">
-                <div className="text-3xl font-bold gradient-text mb-1">15+</div>
-                <div className="text-neutral-400 text-sm">Years Experience</div>
-              </div>
-              <div className="glass-effect p-5 rounded-xl">
-                <div className="text-3xl font-bold gradient-text mb-1">50+</div>
-                <div className="text-neutral-400 text-sm">Institutional Clients</div>
-              </div>
-              <div className="glass-effect p-5 rounded-xl">
-                <div className="text-3xl font-bold gradient-text mb-1">3</div>
-                <div className="text-neutral-400 text-sm">Global Markets</div>
-              </div>
-              <div className="glass-effect p-5 rounded-xl">
-                <div className="text-3xl font-bold gradient-text mb-1">$2B+</div>
-                <div className="text-neutral-400 text-sm">Assets Advised</div>
-              </div>
-            </div>
           </motion.div>
 
           {/* Right side - Large 3D Animation */}
@@ -181,8 +152,8 @@ export default function Hero() {
               <svg className="w-full h-full" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <linearGradient id="nodeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#22c55e" stopOpacity="0.8" />
-                    <stop offset="100%" stopColor="#10b981" stopOpacity="0.3" />
+                    <stop offset="0%" stopColor="#2ec973" stopOpacity="0.8" />
+                    <stop offset="100%" stopColor="#20a85b" stopOpacity="0.3" />
                   </linearGradient>
                   <filter id="glow">
                     <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
@@ -207,7 +178,7 @@ export default function Hero() {
                       y1="250"
                       x2={250 + Math.cos((angle * Math.PI) / 180) * 120}
                       y2={250 + Math.sin((angle * Math.PI) / 180) * 120}
-                      stroke="#22c55e"
+                      stroke="#2ec973"
                       strokeWidth="2"
                       opacity="0.3"
                       initial={{ pathLength: 0 }}
@@ -226,7 +197,7 @@ export default function Hero() {
                         y1={250 + Math.sin((angle * Math.PI) / 180) * 120}
                         x2={250 + Math.cos((nextAngle * Math.PI) / 180) * 120}
                         y2={250 + Math.sin((nextAngle * Math.PI) / 180) * 120}
-                        stroke="#22c55e"
+                        stroke="#2ec973"
                         strokeWidth="2"
                         opacity="0.5"
                       />
@@ -289,7 +260,7 @@ export default function Hero() {
                     cx="250"
                     cy="250"
                     r="3"
-                    fill="#22c55e"
+                    fill="#2ec973"
                     initial={{ opacity: 0 }}
                     animate={{
                       cx: [250, 250 + (Math.random() - 0.5) * 300],
@@ -314,7 +285,7 @@ export default function Hero() {
                     } ${250 + Math.cos((angle * Math.PI) / 180) * 200} ${
                       250 + Math.sin((angle * Math.PI) / 180) * 200
                     }`}
-                    stroke="#22c55e"
+                    stroke="#2ec973"
                     strokeWidth="1.5"
                     fill="none"
                     opacity="0.4"
