@@ -25,10 +25,16 @@ export default function Navigation() {
       }`}
     >
       <div className="section-container">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-28">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold text-white hover:text-primary-400 transition-colors">
-            Loepfe Consulting
+          <Link href="/" className="hover:opacity-80 transition-opacity">
+            <Image
+              src="/logo.svg"
+              alt="Loepfe Consulting"
+              width={500}
+              height={125}
+              className="h-32 w-auto"
+            />
           </Link>
 
           {/* Navigation Links */}
@@ -53,7 +59,7 @@ export default function Navigation() {
             </a>
             <a
               href="#contact"
-              className="px-6 py-2 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-semibold rounded-lg transition-all duration-300 shadow-lg hover:shadow-primary-500/50 hover:scale-105"
+              className="px-6 py-2 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105"
             >
               Get in Touch
             </a>

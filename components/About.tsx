@@ -3,12 +3,10 @@
 import { motion } from 'framer-motion'
 
 const achievements = [
-  'First blockchain advisory firm in DIFC specializing in FMI consulting',
-  'Advised on $2B+ in tokenized real-world asset transactions',
-  'Partnered with leading central banks on CBDC research',
-  'Successfully navigated 50+ regulatory approval processes',
-  'Established security token frameworks for major financial institutions',
-  'Led blockchain integration for Fortune 500 companies'
+  'Involvement in CBDC implementations for central banks across UAE, Saudi Arabia, and Qatar ',
+  'Advised Fortune 500 companies and major clearing houses on blockchain integration',
+  'Led real-world asset tokenization projects across real estate, bonds, and equities',
+  'Created and operated mission-critical infrastructure for government entities',
 ]
 
 // Client locations for globe animation
@@ -57,18 +55,30 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="glass-effect p-12 rounded-3xl mb-20 border-l-4 border-primary-500"
+          whileHover={{ scale: 1.02 }}
+          className="relative max-w-4xl mx-auto mb-20 overflow-hidden rounded-2xl group"
         >
-          <h3 className="text-3xl font-bold text-white mb-6">Our Mission</h3>
-          <p className="text-lg text-neutral-300 leading-relaxed mb-4">
-            Loepfe Consulting bridges the gap between traditional finance and blockchain technology,
-            providing institutional-grade advisory services to clients navigating the digital asset ecosystem.
-          </p>
-          <p className="text-lg text-neutral-300 leading-relaxed">
-            With deep expertise in blockchain technology, software and infrastructure architecture and financial markets,
-            we empower organizations to leverage distributed ledger technology while maintaining compliance,
-            security, and operational excellence.
-          </p>
+          {/* Gradient border effect */}
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-500 via-accent-500 to-primary-500 opacity-75 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+          {/* Inner content box */}
+          <div className="relative m-[2px] bg-neutral-900/95 backdrop-blur-xl rounded-2xl p-8 md:p-10">
+            {/* Animated corner accent */}
+            <div className="absolute top-0 right-0 w-32 h-32 bg-primary-500/20 rounded-full blur-3xl group-hover:bg-primary-500/30 transition-all duration-500"></div>
+
+            <div className="relative">
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Our Mission</h3>
+              <p className="text-base md:text-lg text-neutral-300 leading-relaxed mb-3">
+                Loepfe Consulting bridges the gap between traditional finance and blockchain technology,
+                providing institutional-grade advisory services to clients navigating the digital asset ecosystem.
+              </p>
+              <p className="text-base md:text-lg text-neutral-400 leading-relaxed">
+                With deep expertise in blockchain technology, software and infrastructure architecture and financial markets,
+                we empower organizations to leverage distributed ledger technology while maintaining compliance,
+                security, and operational excellence.
+              </p>
+            </div>
+          </div>
         </motion.div>
 
         {/* Key Achievements */}
@@ -107,13 +117,13 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="text-center mb-6"
         >
           <h3 className="text-3xl md:text-4xl font-bold mb-6">
             <span className="gradient-text">Global Presence</span>
           </h3>
           <p className="text-xl text-neutral-400 mb-2">Serving clients on 5 continents</p>
-          <p className="text-sm text-neutral-500">Focus markets: UAE, United Kingdom & United States</p>
+          <p className="text-sm text-neutral-500">Focus markets: UAE, United Kingdom, Switzerland & United States</p>
         </motion.div>
 
         {/* Globe Animation - Hero Style */}

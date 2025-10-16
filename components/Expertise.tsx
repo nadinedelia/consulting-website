@@ -45,7 +45,7 @@ export default function Expertise() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="glass-effect p-8 rounded-2xl border-l-4 border-primary-500"
+              className="glass-effect p-8 rounded-2xl border-l-2 border-primary-500"
             >
               <h3 className="text-2xl font-bold text-white mb-6">{area.category}</h3>
               <div className="grid grid-cols-2 gap-4">

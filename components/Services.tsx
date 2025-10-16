@@ -6,7 +6,7 @@ const services = [
   {
     title: 'Institutional Advisory',
     description: 'Strategic guidance for financial institutions navigating blockchain adoption and digital asset integration.',
-    features: ['Regulatory Strategy', 'Compliance', 'Digital Asset Custody']
+    features: ['RWA Strategy', 'Compliance', 'Digital Asset Custody']
   },
   {
     title: 'Real World Assets',
@@ -15,7 +15,7 @@ const services = [
   },
   {
     title: 'Blockchain Integration',
-    description: 'End-to-end blockchain implementation for enterprises, from architecture design to production deployment.',
+    description: 'End-to-end blockchain implementation for enterprises, from architecture design to deployment.',
     features: ['Technical Architecture', 'Smart Contract Development', 'System Integration']
   }
 ]
