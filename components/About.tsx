@@ -119,9 +119,9 @@ export default function About() {
           viewport={{ once: true }}
           className="text-center mb-6"
         >
-          <h3 className="text-3xl md:text-4xl font-bold mb-6">
+          {/* <h3 className="text-3xl md:text-4xl font-bold mb-6">
             <span className="gradient-text">Global Presence</span>
-          </h3>
+          </h3> */}
           <p className="text-xl text-neutral-400 mb-2">Serving clients on 5 continents</p>
           <p className="text-sm text-neutral-500">Focus markets: UAE, United Kingdom, Switzerland & United States</p>
         </motion.div>
