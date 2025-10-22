@@ -22,7 +22,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-32 relative overflow-hidden">
+    <section id="services" className="py-32 relative overflow-hidden scroll-mt-12">
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.02)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
 
       <div className="section-container relative z-10">
@@ -31,7 +31,7 @@ export default function Services() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-20"
+          className="text-center mb-32"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             <span className="gradient-text">Our Services</span>

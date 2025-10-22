@@ -39,36 +39,36 @@ export default function Navigation() {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="#services"
+            <Link
+              href="/#services"
               className="text-neutral-300 hover:text-primary-400 transition-colors duration-200"
             >
               Services
-            </a>
-            <a
-              href="#expertise"
+            </Link>
+            <Link
+              href="/#expertise"
               className="text-neutral-300 hover:text-primary-400 transition-colors duration-200"
             >
               Expertise
-            </a>
-            <a
-              href="#about"
+            </Link>
+            <Link
+              href="/#about"
               className="text-neutral-300 hover:text-primary-400 transition-colors duration-200"
             >
               About
-            </a>
+            </Link>
             <Link
               href="/careers"
               className="text-neutral-300 hover:text-primary-400 transition-colors duration-200"
             >
               Careers
             </Link>
-            <a
-              href="#contact"
+            <Link
+              href="/#contact"
               className="px-6 py-2 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105"
             >
               Get in Touch
-            </a>
+            </Link>
           </div>
         </div>
       </div>

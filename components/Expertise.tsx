@@ -19,14 +19,14 @@ const expertiseAreas = [
 
 export default function Expertise() {
   return (
-    <section id="expertise" className="py-32">
+    <section id="expertise" className="py-32 scroll-mt-12">
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-20"
+          className="text-center mb-32"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             <span className="gradient-text">Our Expertise</span>

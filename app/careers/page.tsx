@@ -24,7 +24,7 @@ export default function Careers() {
       <section className="py-20">
         <div className="section-container">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2l md:text-3xl font-bold text-center mb-16 text-white">
+            <h2 className="text-2l md:text-3xl font-bold text-center mb-24 text-white">
               Open Positions
             </h2>
 
@@ -50,7 +50,7 @@ export default function Careers() {
                 <li>• Security-first mindset with auditing experience</li>
               </ul>
               <a
-                href="#contact"
+                href="mailto:loepfe.consulting@pm.me?subject=Application%3A%20Blockchain%20Developer"
                 className="inline-block px-6 py-3 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105"
               >
                 Apply Now
@@ -65,7 +65,7 @@ export default function Careers() {
       <section className="py-20">
         <div className="section-container">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2l md:text-3xl font-bold text-center mb-16 text-white">
+            <h2 className="text-2l md:text-3xl font-bold text-center mb-24 text-white">
               Our Hiring Process
             </h2>
             <div className="space-y-6">
@@ -76,7 +76,7 @@ export default function Careers() {
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">Submit Application</h3>
                   <p className="text-neutral-400">
-                    Apply through the contact form with your resume and portfolio. Tell us why you're interested in working with us.
+                    Apply with your resume and portfolio. Tell us why you're interested in working with us.
                   </p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ export default function Careers() {
               We're always looking for talented individuals. Send us your resume and tell us how you can contribute to our team.
             </p>
             <a
-              href="#contact"
+              href="mailto:loepfe.consulting@pm.me?subject=General%20Application"
               className="inline-block px-6 py-4 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105"
             >
               Get in Touch

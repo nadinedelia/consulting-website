@@ -26,7 +26,7 @@ const clientLocations = [
 
 export default function About() {
   return (
-    <section id="about" className="py-32 relative overflow-hidden">
+    <section id="about" className="py-32 relative overflow-hidden scroll-mt-12">
       {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary-600/10 rounded-full blur-3xl"></div>
@@ -39,7 +39,7 @@ export default function About() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-20"
+          className="text-center mb-32"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             <span className="gradient-text">About Us</span>

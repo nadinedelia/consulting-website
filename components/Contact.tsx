@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Contact() {
   return (
-    <section id="contact" className="pt-20 pb-32 relative overflow-hidden scroll-mt-10">
+    <section id="contact" className="pt-20 pb-32 relative overflow-hidden scroll-mt-20">
       {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary-600/10 rounded-full blur-3xl"></div>
@@ -16,7 +16,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="text-center mb-24"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             <span className="gradient-text">Get in Touch</span>
