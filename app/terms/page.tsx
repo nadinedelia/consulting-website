@@ -67,8 +67,8 @@ export default function TermsOfService() {
             <h2 className="text-2xl font-bold text-white mb-4">8. Contact Information</h2>
             <p className="mb-4">
               For questions about these Terms of Service, please contact:{' '}
-              <a href="mailto:loepfe.consulting@pm.me" className="text-primary-400 hover:text-primary-300">
-                loepfe.consulting@pm.me
+              <a href="mailto:hello@loepfe.consulting" className="text-primary-400 hover:text-primary-300">
+                hello@loepfe.consulting
               </a>
             </p>
           </section>

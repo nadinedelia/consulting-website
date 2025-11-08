@@ -34,7 +34,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="max-w-3xl mx-auto glass-effect p-10 rounded-3xl"
         >
-          <form className="space-y-6" action="mailto:loepfe.consulting@pm.me" method="post" encType="text/plain">
+          <form className="space-y-6" action="mailto:hello@loepfe.consulting" method="post" encType="text/plain">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-neutral-300 mb-2">

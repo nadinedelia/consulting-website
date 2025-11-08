@@ -56,8 +56,8 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-bold text-white mb-4">6. Contact Us</h2>
             <p className="mb-4">
               If you have questions about this Privacy Policy, please contact us at:{' '}
-              <a href="mailto:loepfe.consulting@pm.me" className="text-primary-400 hover:text-primary-300">
-                loepfe.consulting@pm.me
+              <a href="mailto:hello@loepfe.consulting" className="text-primary-400 hover:text-primary-300">
+                hello@loepfe.consulting
               </a>
             </p>
           </section>
