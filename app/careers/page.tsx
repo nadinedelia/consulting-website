@@ -50,7 +50,7 @@ export default function Careers() {
                 <li>• Security-first mindset with auditing experience</li>
               </ul>
               <a
-                href="mailto:hello@loepfe.consulting?subject=Application%3A%20Blockchain%20Developer"
+                href="mailto:careers@loepfe.consulting?subject=Application%3A%20Blockchain%20Developer"
                 className="inline-block px-6 py-3 bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105"
               >
                 Apply Now
